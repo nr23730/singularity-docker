@@ -30,7 +30,7 @@ Now you're ready to rock!
 
 You can use singularity like you would with a real installation. You just type `singularity` and your desired commands in the command line. 
 
-Be aware that only your current working directory will be available in singularity.
+Be aware that only your current working directory will be available in singularity and execution will be limited to noninteractive mode.
 
 ### Examples
 

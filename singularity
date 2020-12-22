@@ -1,3 +1,2 @@
 #!/bin/bash
-ARGS="$@"
-docker run --rm --privileged -v $PWD:/root/mywd singularitydocker:latest bash -c "cd /root/mywd && singularity ${ARGS}"
+docker run --rm --privileged -v $PWD:/root/mywd -w="/root/mywd" singularitydocker:latest singularity "$@"
