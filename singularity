@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run --rm --privileged -v $PWD:/root/mywd -w="/root/mywd" singularitydocker:latest singularity "$@"
+docker run --rm -it --privileged -v $PWD:/root/mywd -w="/root/mywd" singularitydocker:latest singularity "$@"
