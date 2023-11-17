@@ -1,4 +1,4 @@
-FROM ubuntu:focal-20201106
+FROM ubuntu:22.04
 
 LABEL maintainer="Niklas Reimer <n.reimer@uni-luebeck.de>"
 
